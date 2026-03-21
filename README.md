@@ -36,9 +36,6 @@
 
 ## Partie 1 — Les choix de conception
 
-## Architecture hybride SQL + NoSQL
-## Organisme de formation
-
 ### Répartition des responsabilités
 
 #### PostgreSQL (données structurées, transactionnelles)
@@ -57,7 +54,6 @@
 - commentaires_peda    → texte libre des formateurs
 - evaluations_libres   → retours qualitatifs des étudiants
 
---
 
 ## Partie 2 — Requêtes opérationnelles
 
