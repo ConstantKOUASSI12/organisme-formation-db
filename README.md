@@ -3,7 +3,6 @@
 
 ## Sommaire
 
-- [Contexte](#contexte)
 - [Structure du dépôt](#structure-du-dépôt)
 - [Partie 1 — Les choix de conception](#partie-1--Les-choix-de-conception)
 - [Partie 2 — Logique des requêtes](#partie-2--Requêtes-opérationnelles)

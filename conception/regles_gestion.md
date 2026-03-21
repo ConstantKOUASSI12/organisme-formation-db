@@ -1,4 +1,5 @@
 1.Règles de gestion
+
 **Un étudiant peut s'inscrire à plusieurs formations**
 **Une formation peut concerner un ou plusieurs étudiants**
 **Un étudiant doit suivre au moins un module et peut en suivre plusieurs**
