@@ -48,10 +48,10 @@ nosql/
 - animation
 
 #### MongoDB (données flexibles, volumineuses)
-- historique_actions   → qui a fait quoi et quand
-- logs      → erreurs, performances, connexions
-- commentaires_pedagogiques    → texte libre des formateurs
-- evaluations_libres   → retours qualitatifs des étudiants
+- historique_actions   = qui a fait quoi et quand
+- logs      = erreurs, performances, connexions
+- commentaires_pedagogiques  = texte libre des formateurs
+- evaluations_libres   = retours qualitatifs des étudiants
 
 
 ## Partie 2 — Requêtes opérationnelles
