@@ -13,8 +13,6 @@ DROP TABLE IF EXISTS formation;
 DROP TABLE IF EXISTS intervenant;
 
 
-
-
 -- Table ETUDIANT
 CREATE TABLE etudiant(
     id_etudiant SERIAL PRIMARY KEY,

@@ -11,6 +11,7 @@ CREATE ROLE role_secretariat;
 CREATE ROLE role_formateur;
 CREATE ROLE role_admin;
 
+/*
 +------------------+-------------------------+--------------------------+
 | Rôle             | Profil réel             | Accès                    |
 +------------------+-------------------------+--------------------------+
@@ -33,6 +34,7 @@ CREATE ROLE role_admin;
 | animation        | SELECT    | SELECT        | SELECT     | ALL        |
 +------------------+-----------+---------------+------------+------------+
 
+*/
 
 -- des exemples de mise en œuvre (droits de lecture, écriture, administration)
 

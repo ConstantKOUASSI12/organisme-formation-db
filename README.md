@@ -14,22 +14,21 @@
 ## Structure du dépôt
 
 ```
-📦 organisme-formation-db
-├── 📄 README.md
-├── 📁 conception/
-│   ├── dictionnaire_donnees.xlsx
-│   ├── MCD.jpg
-│   ├── MLD.jpg
-│   ├── MPD.jpg
-│   └── regles_gestion.md
-├── 📁 sql/
-│   ├── 01_creation_base.sql
-│   ├── 02_donnees_test.sql
-│   ├── 03_requetes_operationnelles.sql
-│   ├── 04_analyse_reporting.sql
-│   └── 05_securite_sauvegarde.sql
-└── 📁 nosql/
-    ├── 06_nosql_mongodb.js
+README.md
+conception/
+    - dictionnaire_donnees.xlsx
+    - MCD.jpg
+    - MLD.jpg
+    - MPD.jpg
+    - regles_gestion.md
+sql/
+    - 01_creation_base.sql
+    - 02_donnees_test.sql
+    - 03_requetes_operationnelles.sql
+    - 04_analyse_reporting.sql
+    - 05_securite_sauvegarde.sql
+nosql/
+    - 06_nosql_mongodb.js
 ```
 
 ---
@@ -50,8 +49,8 @@
 
 #### MongoDB (données flexibles, volumineuses)
 - historique_actions   → qui a fait quoi et quand
-- logs_techniques      → erreurs, performances, connexions
-- commentaires_peda    → texte libre des formateurs
+- logs      → erreurs, performances, connexions
+- commentaires_pedagogiques    → texte libre des formateurs
 - evaluations_libres   → retours qualitatifs des étudiants
 
 

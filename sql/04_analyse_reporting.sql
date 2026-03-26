@@ -1,11 +1,19 @@
 -- Nombre total d’étudiants, de formations et de modules
 
+WITH
+e AS (SELECT COUNT(*) AS nb FROM etudiant),
+f AS (SELECT COUNT(*) AS nb FROM formation),
+m AS (SELECT COUNT(*) AS nb FROM module),
+i AS (SELECT COUNT(*) AS nb FROM intervenant),
+ins AS (SELECT COUNT(*) AS nb FROM inscription)
+
 SELECT
-    (SELECT COUNT(*) FROM etudiant) nb_etudiants,
-    (SELECT COUNT(*) FROM formation) nb_formations,
-    (SELECT COUNT(*) FROM module) nb_modules,
-    (SELECT COUNT(*) FROM intervenant) nb_intervenants,
-    (SELECT COUNT(*) FROM inscription) nb_inscriptions;
+    e.nb AS nb_etudiants,
+    f.nb AS nb_formations,
+    m.nb AS nb_modules,
+    i.nb AS nb_intervenants,
+    ins.nb AS nb_inscriptions
+FROM e, f, m, i, ins;
 
 -- Moyenne générale des notes par formation
 SELECT
